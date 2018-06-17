@@ -13,7 +13,7 @@ export default phina.define('Lock', {
   update(app) {
     if (this.visible) {
       this.rotation += 2
-      this.radius = Math.min(64, this.radius + 8)
+      this.radius = Math.min(100, this.radius + 8)
     } else {
       this.radius = 32
     }
